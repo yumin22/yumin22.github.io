@@ -1,0 +1,102 @@
+/*     
+    이름: 주유민
+    날짜: 2025.04.14
+    Section: IAB 6068
+    This is the styles.css page for my portfolio of web development
+work. It is used by all pages in my portfolio to give the site a
+consistent look and feel.
+*/
+
+
+
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PeoplefirstFightingTTF';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-2@1.0/PeoplefirstFightingTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #D5E5D5;
+
+}
+
+
+/* about.html */
+header {
+    font-family: "PeoplefirstFightingTTF";
+    font-size: 100px;
+    margin-top: 5%;
+}
+
+
+main {
+    font-family: "Paperlogy";
+    /* padding: 5%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.myInformation  {
+
+    font-size: 20px;
+}
+
+.myInformation > #introduce-page {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* introduce.html */
+#introduce-main {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#introduce-main > section, aside, article {
+    padding: 2%;
+    width: 380px;
+
+}
+
+#introduce-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#introduce-footer img {
+    width: 300px;
+    padding: 30px 30px 50px 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
