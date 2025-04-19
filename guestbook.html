@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>guest book</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>방명록 남기기</div>
+        <p style="font-family: Paperlogy; font-size:18px; padding-top:10px;"> 자유롭게 쓰고싶은 말을 써보세요! </p>
+    </header>
+
+    <div class="Guest-container">
+        <form id="guestbookForm">
+            <label for="guestName" style="font-family: 'Pretendard';">이름:</label>
+            <input type="text" id="guestName" placeholder="이름을 입력하세요" required>
+            <label for="guestMessage" style="font-family: 'Pretendard';">메시지:</label>
+            <textarea id="guestMessage" placeholder="메시지를 입력하세요" required></textarea>
+
+            <button id="submitBtn" type="submit" style="font-family: 'Pretendard';">추가하기</button>
+        </form>
+
+        <section id="guestbookEntries">
+        <h2 style="font-family: 'Paperlogy';">방명록 목록</h2>
+        <ul id="entryList" style="font-family: 'Pretendard';"></ul>
+        </section>
+    </div>
+    <nav>
+        <a href="index.html">Back to the Main Page</a>
+        <p>&copy; 2025 주유민. All rights reserved.</p>
+    </nav>
+</body>
+</html>
