@@ -66,7 +66,6 @@ main {
 }
 
 .myInformation  {
-
     font-size: 20px;
 }
 
@@ -110,6 +109,7 @@ nav {
     padding: 10px 20px;
     text-align: center;
     font-size: 14px;
+    background-color: #D5E5D5;
 }
 
 /* guestbook.html */
@@ -179,4 +179,26 @@ border: none;
 border-radius: 5px;
 padding: 5px 8px;
 font-size: 14px;
+}
+
+
+/* book-search.html */
+
+#author-list {
+    display: flex;
+    font-family: "Pretendard";
+    font-size: 20px;
+    gap: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#book-title {
+    font-family: "Paperlogy";
+    font-size: 20px;
+}
+
+#book-list {
+    font-family: "Pretendard";
 }
